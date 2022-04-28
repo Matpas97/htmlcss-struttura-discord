@@ -47,6 +47,9 @@ main{
     height: 1500px;
 
 }
+section{
+    padding: 30px 10px;
+}
 
 .flex-container{
     display: flex;
@@ -58,11 +61,12 @@ main{
     background-color: royalblue;
     border: 1px solid black;
     width: 750px;
-    height: 300px;
+    height: 450px;
+
 }
 .flex-box1{
     background-color: pink;
     border: 1px solid black;
     width: 450px;
-    height: 300px;
+    height: 450px;
 }
