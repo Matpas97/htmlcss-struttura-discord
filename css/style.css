@@ -28,8 +28,17 @@ header{
 }
 .flex-menu-container2{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #000088;
+    margin-top: 10px;
+    /* Test */
+    height: 400px;
+
 }
 .box{
-    background-color: pink;
-    
+    background-color: #FBA0E3;
+    border: 1px solid black;
+    width: 60%;
+    height: 90%;
 }
