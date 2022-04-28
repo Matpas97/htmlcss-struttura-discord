@@ -10,7 +10,7 @@ header{
     background-color:lightblue;
 
     /* Test */
-    height: 50px;
+    
 
 }
 .flex-menu-container{
@@ -41,4 +41,28 @@ header{
     border: 1px solid black;
     width: 60%;
     height: 90%;
+}
+/* Main */
+main{
+    height: 1500px;
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.flex-box{
+    background-color: royalblue;
+    border: 1px solid black;
+    width: 750px;
+    height: 300px;
+}
+.flex-box1{
+    background-color: pink;
+    border: 1px solid black;
+    width: 450px;
+    height: 300px;
 }
