@@ -49,6 +49,9 @@ header{
 section{
     padding: 30px 10px;
 }
+footer{
+    background-color: black;
+}
 
 .flex-container{
     display: flex;
@@ -83,11 +86,13 @@ section{
 }
 .columns{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content: flex-end;
     
     background-color: brown;
     width: 750px;
     height: 500px;
+    padding: 10px 0;
 
 }
 .columns-slim{
@@ -96,4 +101,21 @@ section{
 }
 .columns-strong{
     border: 1px solid black;
+}
+.last-info{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+   
+}
+
+.logo{
+    background-color: brown;
+    width: 100px;
+    height: 50px;
+}
+.bottone{
+    background-color: brown;
+    width: 100px;
+    height: 50px;
 }
